@@ -1,11 +1,10 @@
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { aboutMePic } from "../assets";
-import SkillEdutcation from "./SkillEdutcation";
 
 const AboutMe = () => {
     return (
-        <div className="flex flex-col gap-36 mt-5 lg:mt-36">
+        <div className="flex flex-col gap-36 mt-5 lg:mt-20">
             {/* ABOUT ME SECTION */}
             <div className=" flex flex-col lg:flex-row items-center justify-between mt-32 mb-10 gap-14 lg:gap-28">
                 {/* Background Glow Effect */}
