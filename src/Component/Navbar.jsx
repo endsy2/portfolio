@@ -16,7 +16,9 @@ const Navbar = () => {
                         <NavLink to={element} key={index} className='text-lg hover:text-primary-100' >{element}</NavLink>
                     ))}
                 </div>
-                <div className='text-2xl mr-10 lg:hidden' onClick={() => setToggle(!toggle)}><FiAlignJustify /></div>
+                <div className='text-2xl   lg:hidden' onClick={() => setToggle(!toggle)}>
+                    <FiAlignJustify />
+                </div>
                 <div className={`fixed inset-0 z-40 flex flex-col bg-gray-800 bg-opacity-50 lg:hidden transition-transform transform ${toggle ? "translate-x-0" : "-translate-x-full"}`}
                     onClick={() => setToggle(false)}
                 >
