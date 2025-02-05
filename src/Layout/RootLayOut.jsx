@@ -4,7 +4,7 @@ import Navbar from '../Component/Navbar'
 
 const RootLayOut = () => {
     return (
-        <div className='mx-10 lg:mx-11'>
+        <div className='mx-10 lg:mx-24'>
             <Navbar />
             <Outlet />
         </div>

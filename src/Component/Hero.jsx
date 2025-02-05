@@ -16,7 +16,7 @@ const Hero = () => {
                         <p className="font-bold text-start text-3xl sm:text-4xl md:text-5xl text-primary">I'm Chin Kongming.</p>
                         {/* Description */}
 
-                        <p className="text-start  font-semibold text-lg  sm:text-xl md:text-4xl  ">
+                        <p className="text-center lg:text-start   font-semibold text-lg  sm:text-xl md:text-4xl  ">
                             Web Developer
                         </p>
                     </div>
@@ -33,7 +33,7 @@ const Hero = () => {
             {/* <div className='flex justify-center '>
                 <a href="" className='text-3xl  text-primary hover:text-primary-100 '><FiChevronDown /></a>
             </div> */}
-            <AboutMe />
+
         </div>
     );
 };

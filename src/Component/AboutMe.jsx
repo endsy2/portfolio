@@ -47,7 +47,7 @@ const AboutMe = () => {
                     </button>
                 </div>
             </div>
-            <SkillEdutcation />
+
         </div>
     );
 };
