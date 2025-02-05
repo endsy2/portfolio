@@ -1,6 +1,6 @@
 import heroImg from './tkg-img.png'
-// import aboutMePic from './aboutMePic.jpg'
+import aboutMePic from './flat-lay-paper-mockup-laptop.jpg'
 export {
     heroImg,
-    // aboutMePic
+    aboutMePic
 }
