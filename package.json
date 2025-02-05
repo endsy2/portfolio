@@ -9,6 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "build": {
+    "command": "npm run build",
+    "outputDirectory": "build"
+  },
   "dependencies": {
     "dom": "^0.0.3",
     "portfolio": "file:",
