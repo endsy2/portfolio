@@ -1,5 +1,5 @@
-import heroImg from '../assets/tkg-img.png'
-import aboutMePic from '../assets/aboutMePic.jpg'
+import heroImg from './tkg-img.png'
+import aboutMePic from './aboutMePic.jpg'
 export {
     heroImg,
     aboutMePic
