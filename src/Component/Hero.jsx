@@ -6,7 +6,7 @@ import AboutMe from './AboutMe';
 const Hero = () => {
     return (
         <div >
-            <div className='flex gap-96 py-52 lg:5 '>
+            <div className='flex max-lg:justify-center max-lg:items-center gap-96 py-52 '>
                 <div className="flex flex-col lg:w-1/4 items-center  justify-center gap-8 text-gray-900 text-xl font-OpenSans text-center  ">
                     {/* Title */}
                     <div className='flex flex-col max-lg:justify-center lg:items-center gap-5'>
