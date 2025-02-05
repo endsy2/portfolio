@@ -6,21 +6,20 @@ import AboutMe from './AboutMe';
 const Hero = () => {
     return (
         <div >
-            <div className='flex gap-96 py-5'>
-                <div className="flex flex-col lg:w-1/4  justify-center gap-8 text-gray-900 text-xl font-OpenSans text-center  ">
+            <div className='flex gap-96 py-52 lg:5 '>
+                <div className="flex flex-col lg:w-1/4 items-center  justify-center gap-8 text-gray-900 text-xl font-OpenSans text-center  ">
                     {/* Title */}
-                    <div className=' flex justify-center items-center bg-primary h-16 rounded-lg mb-10 '>
-                        <h1 className='font-bold text-start text-lg sm:text-xl md:text-2xl text-subPrimary space-y-6'>PORTFOLIO</h1>
+                    <div className='flex flex-col max-lg:justify-center lg:items-center gap-5'>
+                        <div className=' flex justify-center items-center bg-primary h-16 rounded-lg   '>
+                            <h1 className='font-bold text-start text-lg sm:text-xl md:text-2xl text-subPrimary  '>Hello There!</h1>
+                        </div>
+                        <p className="font-bold text-start text-3xl sm:text-4xl md:text-5xl text-primary">I'm Chin Kongming.</p>
+                        {/* Description */}
+
+                        <p className="text-start  font-semibold text-lg  sm:text-xl md:text-4xl  ">
+                            Web Developer
+                        </p>
                     </div>
-                    <h1 className="font-bold text-start text-3xl sm:text-4xl md:text-5xl text-primary space-y-6">
-                        <p>CHIN</p><p> KONGMING.</p>
-                    </h1>
-                    {/* Description */}
-
-                    <p className="text-start  font-semibold text-lg  sm:text-xl md:text-2xl  leading-relaxed">
-                        Web Developer
-                    </p>
-
                     {/* Button */}
                     {/* <button className="px-10 py-4 bg-primary text-white font-bold rounded-xl mt-5 hover:bg-opacity-90 transition duration-300 cursor-pointer">
                 PROJECT
