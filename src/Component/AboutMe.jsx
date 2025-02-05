@@ -5,14 +5,14 @@ const AboutMe = () => {
     return (
         <div className="flex flex-col gap-36">
             {/* ABOUT ME SECTION */}
-            <div className="relative flex flex-col lg:flex-row items-center justify-between mt-32 mb-10 gap-14 lg:gap-28">
+            <div className=" flex flex-col lg:flex-row items-center justify-between mt-32 mb-10 gap-14 lg:gap-28">
                 {/* Background Glow Effect */}
-                <div className="absolute inset-0 -z-10 bg-gradient-to-br from-blue-50 to-transparent blur-3xl opacity-50"></div>
+
 
                 {/* Image Section */}
-                <div className="relative w-64 h-64 lg:w-96 lg:h-96 flex items-center justify-center">
+                <div className=" w-64 h-64 lg:w-96 lg:h-96 flex items-center justify-center">
                     {/* Outer Glowing Circle */}
-                    <div className="absolute w-full h-full rounded-full border-8 border-primary opacity-20 animate-pulse"></div>
+
                     {/* Profile Image */}
                     <img
                         src={aboutMePic}

@@ -31,9 +31,9 @@ const Hero = () => {
                     <img src={heroImg} alt="" className='w-[550px]' />
                 </div>
             </div>
-            <div className='flex justify-center '>
+            {/* <div className='flex justify-center '>
                 <a href="" className='text-3xl  text-primary hover:text-primary-100 '><FiChevronDown /></a>
-            </div>
+            </div> */}
             <AboutMe />
         </div>
     );
