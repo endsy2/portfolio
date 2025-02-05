@@ -1,5 +1,5 @@
 import React from "react";
-import { aboutMePic } from "../assets";
+// import { aboutMePic } from "../assets";
 
 const AboutMe = () => {
     return (
@@ -14,11 +14,11 @@ const AboutMe = () => {
                     {/* Outer Glowing Circle */}
                     <div className="absolute w-full h-full rounded-full border-8 border-primary opacity-20 animate-pulse"></div>
                     {/* Profile Image */}
-                    <img
+                    {/* <img
                         src={aboutMePic}
                         alt="About Me"
                         className="rounded-full object-cover w-full h-full border-[6px] border-white shadow-2xl hover:scale-105 hover:rotate-3 transition-all duration-500 ease-in-out"
-                    />
+                    /> */}
                 </div>
 
                 {/* Text Section */}
@@ -40,7 +40,7 @@ const AboutMe = () => {
             </div>
 
             {/* EDUCATION & SKILLS SECTION */}
-            <div className="flex flex-wrap justify-between  ">
+            <div className="flex flex-wrap justify-between gap-16 ">
                 {/* EDUCATION */}
                 <div className="bg-primary p-10 rounded-3xl shadow-lg hover:scale-105 transition-transform duration-300">
                     <h1 className="font-bold text-3xl lg:text-4xl text-center mb-8 text-subPrimary">
