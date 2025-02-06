@@ -48,7 +48,7 @@ const Project = () => {
         // </div>
         <div className='flex flex-col mt-20 text-primaryfont-semi'>
             <h1 className='text-2xl md:text-4xl lg:text-5xl font-bold text-primary'>Project</h1>
-            <div className='flex mt-20 gap-20'>
+            <div className='flex flex-wrap mt-20 gap-20'>
                 {project.map((element, index) => (
                     <Link key={index} to={element.link} className='flex flex-col w-80 space-y-4 rounded-xl hover:scale-105 hover:transition hover:duration-300 text-subPrimary bg-primary py-7 px-6'>
                         <div className='flex justify-center items-center gap-2'>
