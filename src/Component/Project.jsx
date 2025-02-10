@@ -46,11 +46,12 @@ const Project = () => {
         //         </div>
         //     </Slider>
         // </div>
-        <div className='flex flex-col mt-20 text-primaryfont-semi'>
-            <h1 className='text-2xl md:text-4xl lg:text-5xl font-bold text-primary'>Project</h1>
+        <div className='flex flex-col p-10 text-primaryfont-semi px-10 lg:px-24 py-10 lg:py-44 bg-white'>
+            <h1 className='text-2xl md:text-4xl lg:text-5xl font-bold text-primary text-center '>Project</h1>
             <div className='flex flex-wrap max-lg:justify-center mt-20 gap-20'>
                 {project.map((element, index) => (
-                    <Link key={index} to={element.link} className='flex flex-col w-80 space-y-4 rounded-xl hover:scale-105 hover:transition hover:duration-300 text-subPrimary bg-primary py-7 px-6'>
+                    <Link key={index} to={element.link} className='flex flex-col w-80 space-y-4 rounded-xl hover:scale-105 hover:transition
+                     hover:duration-300 border-2 border-primary text-primary hover:text-subPrimary hover:bg-primary py-7 px-6 shadow-xl'>
                         <div className='flex justify-center items-center gap-2'>
                             <p className='text-2xl'>{element.img}</p>
                             <p>{element.projectName}</p>

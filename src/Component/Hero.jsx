@@ -4,10 +4,10 @@ import { heroImg } from '../assets';
 const Hero = () => {
     return (
         <div >
-            <div className='flex max-lg:justify-center max-lg:items-center gap-96  '>
+            <div className='flex max-lg:justify-center max-lg:items-center gap-96 mx-10 lg:px-24 mb-52 max-sm:py-28   '>
                 <div className="flex flex-col lg:w-1/4 items-center  justify-center gap-8 text-gray-900 text-xl font-OpenSans text-center  ">
                     {/* Title */}
-                    <div className='flex flex-col   gap-5'>
+                    <div className='flex flex-col gap-5'>
                         <div className=' flex justify-center items-center bg-primary h-16 rounded-lg   '>
                             <h1 className='font-bold text-start text-lg sm:text-xl md:text-2xl text-subPrimary  '>Hello There!</h1>
                         </div>

@@ -8,7 +8,7 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
     return (
         <div className=''>
-            <nav className='h-28 flex sticky  justify-between  items-center  font-OpenSans  text-primary  '>
+            <nav className='h-28 flex sticky  justify-between  items-center  font-OpenSans  text-primary mx-10 lg:px-24 '>
 
                 <NavLink to='/' className='text-xl font-bold hover:text-primary-100 flex justify-center items-center gap-3 '><AiOutlineCodeSandbox />CHIN KONGMING</NavLink>
                 <div className='lg:flex gap-28 hidden '>
@@ -24,10 +24,10 @@ const Navbar = () => {
                 >
                     <div className='flex flex-col gap-10 items-center w-64 h-full shadow-lg bg-subPrimary' >
                         <ul className='flex flex-col justify-center gap-10 mt-10'>
-                            <li className='flex justify-center hover:border-b-2 border-primary w-full'><a href="">HOME</a></li>
-                            <li className='flex justify-center hover:border-b-2 border-primary w-full'><a href="">ABOUT ME</a></li>
-                            <li className='flex justify-center hover:border-b-2 border-primary w-full'><a href="">SERVICE</a></li>
-                            <li className='flex justify-center hover:border-b-2 border-primary w-full'><a href="">CONTACT</a></li>
+                            <li className='flex justify-center hover:border-b-2 border-primary w-full'><a href="">Home</a></li>
+                            <li className='flex justify-center hover:border-b-2 border-primary w-full'><a href="">About Me</a></li>
+                            <li className='flex justify-center hover:border-b-2 border-primary w-full'><a href="">Service</a></li>
+                            <li className='flex justify-center hover:border-b-2 border-primary w-full'><a href="">Contact</a></li>
                         </ul>
                     </div>
                 </div>

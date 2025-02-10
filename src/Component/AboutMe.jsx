@@ -4,14 +4,14 @@ import { aboutMePic } from "../assets";
 
 const AboutMe = () => {
     return (
-        <div className="flex flex-col gap-36 mt-5 lg:mt-20">
+        <div className=" bg-white py-6 md:py-9 lg:py-52 px-10 lg:px-32 ">
             {/* ABOUT ME SECTION */}
-            <div className=" flex flex-col lg:flex-row items-center justify-between mt-32 mb-10 gap-14 lg:gap-28">
+            <div className=" flex flex-col lg:flex-row items-center justify-between  gap-14 lg:gap-20">
                 {/* Background Glow Effect */}
 
 
                 {/* Image Section */}
-                <div className=" w-64 h-64 lg:w-96 lg:h-96 flex items-center justify-center">
+                <div className=" w-64 h-64 lg:w-96 lg:h-96 hidden lg:flex items-center justify-center">
                     {/* Outer Glowing Circle */}
 
                     {/* Profile Image */}
@@ -28,7 +28,7 @@ const AboutMe = () => {
                         ABOUT ME
                     </h1>
                     <h2 className="text-primary font-semibold text-2xl ">
-                        INTRODUCTION ABOUT ME
+                        Introduce About Me
                     </h2>
                     <p className="font-medium leading-relaxed text-lg lg:text-xl text-gray-700">
                         I am a motivated third-year Information Technology Engineering student at
